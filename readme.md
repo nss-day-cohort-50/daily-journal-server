@@ -4,12 +4,12 @@
 1. Run the debugger to start the server
 1. To add tags to an entry, make a post request to `/entries` with this data:
         
-```json
-{
-    "entry": "adding tags",
-    "concept": "python",
-    "mood_id": 2,
-    "tags": [2, 3]
-}
-```
+    ```json
+    {
+        "entry": "adding tags",
+        "concept": "python",
+        "moodId": 2,
+        "tags": [2, 3]
+    }
+    ```
 1. Modify the front end code to send a `tags` key with the entry data when creating an entry. The `tags` value should be an array of tag id's
